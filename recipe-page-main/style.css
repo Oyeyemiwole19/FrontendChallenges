@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+:root {
+  --neutrawhite: hsl(0, 0%, 100%);
+  --neutraRS: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --Light-Grey: hsl(30, 18%, 87%);
+  --Wenge-Brown: hsl(30, 10%, 34%);
+  --DarkCharcoal: hsl(24, 5%, 18%);
+  --nutmeg: hsl(14, 45%, 36%);
+  --darkraspberry: #7b284f;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--Eggshell);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+}
+section {
+  padding: 0.8rem 0;
+  width: 100%;
+}
+
+h1 h1,
+h2 {
+  font-family: "Young Serif";
+  font-weight: 400;
+  color: var(--nutmeg);
+}
+p,
+li {
+  color: var(--Wenge-Brown);
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+p,
+li,
+h3 {
+  font-family: "Outfit";
+}
+h3 {
+  font-size: 1rem;
+  color: #7b284f;
+}
+ul,
+ol {
+  font-family: "Outfit";
+  font-size: 1rem;
+  color: var(--Wenge-Brown);
+  list-style-position: inside;
+  text-align: justify;
+  padding: 0;
+  margin: 0;
+}
+li {
+  margin: 0.5rem 0 0 0.5rem;
+  line-height: 1.2rem;
+}
+li::marker {
+  color: var(--nutmeg);
+  font-weight: bold;
+  margin-right: 2rem;
+}
+
+span {
+  font-weight: bold;
+  color: var(--Wenge-Brown);
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0.5rem;
+}
+
+main {
+  background-color: var(--neutrawhite);
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.meal-prep-time {
+  background-color: var(--neutraRS);
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+.meal-ds h1 {
+  margin: 1rem 0;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.ingredient,
+.instruction {
+  border-bottom: 1px solid var(--Light-Grey);
+}
+.nutrition h2 {
+  margin-bottom: 0.5rem;
+}
+.nutrition table {
+  font-family: "Outfit";
+  font-weight: 400;
+  color: var(--nutmeg);
+  width: 100%;
+  margin: 0.5rem;
+}
+.nutrition td {
+  border-bottom: 1px solid var(--Light-Grey);
+}
+.nutrition tr:nth-child(4) td {
+  border: none;
+}
+.nutrition tr,
+.nutrition td {
+  padding: 8px;
+}
+td:nth-child(1) {
+  color: var(--Wenge-Brown);
+}
+td:nth-child(2) {
+  font-weight: bold;
+}
