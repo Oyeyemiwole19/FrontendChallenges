@@ -19,7 +19,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* height: 100vh; */
+  height: 180vh;
 }
 section {
   padding: 0.8rem 0;
@@ -85,7 +85,7 @@ main {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 2rem;
+  padding: 1.8rem;
   border-radius: 1rem;
 }
 .meal-prep-time {
