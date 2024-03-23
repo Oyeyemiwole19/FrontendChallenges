@@ -19,21 +19,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 180vh;
+  height: 220vh;
 }
 section {
   padding: 0.8rem 0;
   width: 100%;
 }
 
-h1 h1,
+h1,
 h2 {
-  font-family: "Young Serif";
+  font-family: "Young Serif", sans-serif;
   font-weight: 400;
   color: var(--nutmeg);
 }
-p,
-li {
+p {
   color: var(--Wenge-Brown);
   font-size: 0.8rem;
   margin-bottom: 1rem;
@@ -53,23 +52,24 @@ ol {
   font-size: 1rem;
   color: var(--Wenge-Brown);
   list-style-position: inside;
-  text-align: justify;
-  padding: 0;
-  margin: 0;
+  padding-left: 0.5rem;
+  max-width: 90%;
 }
 li {
-  margin: 0.5rem 0 0 0.5rem;
-  line-height: 1.2rem;
+  color: var(--Wenge-Brown);
+  font-size: 0.8rem;
+  margin: 0.5rem 0 0;
+  line-height: 1.4rem;
 }
 li::marker {
   color: var(--nutmeg);
   font-weight: bold;
-  margin-right: 2rem;
 }
 
 span {
-  font-weight: bold;
+  font-weight: 700;
   color: var(--Wenge-Brown);
+  padding-left: 10px;
 }
 img {
   width: 100%;
@@ -97,13 +97,14 @@ main {
 .meal-ds h1 {
   margin: 1rem 0;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .ingredient,
 .instruction {
   border-bottom: 1px solid var(--Light-Grey);
 }
+
 .nutrition h2 {
   margin-bottom: 0.5rem;
 }
@@ -113,6 +114,7 @@ main {
   color: var(--nutmeg);
   width: 100%;
   margin: 0.5rem;
+  margin-bottom: 0;
 }
 .nutrition td {
   border-bottom: 1px solid var(--Light-Grey);
@@ -129,4 +131,7 @@ td:nth-child(1) {
 }
 td:nth-child(2) {
   font-weight: bold;
+}
+.nutrition {
+  padding-bottom: 0;
 }
