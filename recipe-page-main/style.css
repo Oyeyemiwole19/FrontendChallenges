@@ -19,46 +19,50 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 220vh;
+  height: 180vh;
 }
 section {
   padding: 0.8rem 0;
   width: 100%;
 }
 
-h1,
 h2 {
-  font-family: "Young Serif", sans-serif;
+  font-family: "Young Serif";
   font-weight: 400;
   color: var(--nutmeg);
 }
+.meal-ds h2 {
+  color: hsl(24, 5%, 18%);
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 0.8rem 0;
+}
 p {
   color: var(--Wenge-Brown);
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   margin-bottom: 1rem;
 }
 p,
-li,
-h3 {
+li {
   font-family: "Outfit";
 }
 h3 {
+  font-family: "Outfit";
   font-size: 1rem;
   color: #7b284f;
 }
 ul,
 ol {
-  font-family: "Outfit";
-  font-size: 1rem;
-  color: var(--Wenge-Brown);
   list-style-position: inside;
   padding-left: 0.5rem;
   max-width: 90%;
 }
 li {
   color: var(--Wenge-Brown);
+  font-size: 1rem;
   font-size: 0.8rem;
   margin: 0.5rem 0 0;
+  width: 100%;
   line-height: 1.4rem;
 }
 li::marker {
@@ -67,6 +71,7 @@ li::marker {
 }
 
 span {
+  font-size: 1rem;
   font-weight: 700;
   color: var(--Wenge-Brown);
   padding-left: 10px;
@@ -91,7 +96,7 @@ main {
 .meal-prep-time {
   background-color: var(--neutraRS);
   width: 100%;
-  padding: 1.5rem;
+  padding: 1.1rem;
   border-radius: 0.5rem;
 }
 .meal-ds h1 {
@@ -103,6 +108,7 @@ main {
 .ingredient,
 .instruction {
   border-bottom: 1px solid var(--Light-Grey);
+  margin-top: 0.5rem;
 }
 
 .nutrition h2 {
