@@ -23,7 +23,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://frontend-challenges-pi.vercel.app/)
 
 ## My process
 
@@ -32,7 +32,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
@@ -51,4 +50,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Oyeyemiwole19)
-- Twitter - [@wolecodes](https://www.twitter.com/yourusername)
+- Twitter - [@wolecodes](https://www.twitter.com/wolecodes).
