@@ -55,7 +55,7 @@ ul,
 ol {
   list-style-position: inside;
   padding-left: 0.5rem;
-  max-width: 90%;
+  width: 100%;
 }
 li {
   color: var(--Wenge-Brown);
@@ -71,7 +71,7 @@ li::marker {
 }
 
 span {
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-weight: 700;
   color: var(--Wenge-Brown);
   padding-left: 10px;
